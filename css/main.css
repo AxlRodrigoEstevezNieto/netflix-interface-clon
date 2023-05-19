@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: #171414;
+}
+
+.profile-image {
+    width: 300px;
+    height: 300px;
+}
+
+.profile-image:hover{
+    border: 1.5px solid #ffffff;
+}
+
+.profile-link {
+    text-decoration: none;
+}
+
+#title-index {
+    color: #fff;
+    font-size: 47.75px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#admin-profile-button {
+    background-color: #17141400;
+    color: #808080;
+    width: 200px;
+    height: 50px;
+    border: .5px solid #808080;
+}
+
+#admin-profile-button:hover {
+    color: #ffffff;
+    border: .5px solid #ffffff;
+}
