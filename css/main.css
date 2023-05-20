@@ -32,6 +32,24 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 80px;
 }
+
+.div-button-play {
+    width: 150px;
+    height: 35px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.black-text {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+#play-icon {
+    width: 20px;
+    height: 20px;
+}
 #banner {
     background-image: url('./../images/banner.png');
     background-repeat: no-repeat;
