@@ -54,6 +54,10 @@ body {
     width: 18rem;
 }
 
+#sinopsis {
+    width: 30rem;
+}
+
 #movies {
     background-color: #171414;
 }
@@ -89,4 +93,76 @@ body {
 #admin-profile-button:hover {
     color: #ffffff;
     border: .5px solid #ffffff;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .text-font {
+        font-size: 12px;
+    }
+
+    .title-font {
+        font-size: 40px;
+    }
+
+    #sinopsis {
+        width: 20rem;
+    }
+
+    .img-movie {
+        width: 10rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .text-font {
+        font-size: 12px;
+    }
+
+    .title-font {
+        font-size: 40px;
+    }
+
+    #sinopsis {
+        width: 20rem;
+    }
+
+    .img-movie {
+        width: 10rem;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 576px) {
+    .text-font {
+        font-size: 12px;
+    }
+
+    .title-font {
+        font-size: 30px;
+    }
+
+    .div-button-play {
+        width: 100px;
+        height: 15px;
+        background-color: #FFFFFF;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .black-text {
+        font-size: 10px;
+    }
+    
+    #sinopsis {
+        width: 20rem;
+    }
+
+    .img-movie {
+        width: 10rem;
+    }
+
+    #play-icon {
+        width: 10px;
+        height: 10px;
+    }
 }
