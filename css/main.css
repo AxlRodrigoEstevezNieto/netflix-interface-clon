@@ -46,16 +46,30 @@ body {
     text-decoration: none;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
+.img-movie {
+    width: 18rem;
+}
+
+#movies {
+    background-color: #171414;
+}
+
 #play-icon {
     width: 20px;
     height: 20px;
 }
+
+
 #banner {
     background-image: url('./../images/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    height: 60vh;
 }
 
 #title-index {
